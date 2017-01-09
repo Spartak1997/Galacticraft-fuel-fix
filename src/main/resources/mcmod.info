@@ -1,0 +1,15 @@
+[
+{
+  "modid": "galacticraft_fuel_fix",
+  "name": "Galacticraft fuel fix",
+  "description": "This addon disable using common fuel for rockets (only EnderIO rocket fuel allowed)",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Dimach"],
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
