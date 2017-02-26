@@ -25,6 +25,7 @@ public class ByteCodeTransformer implements IClassTransformer {
         cr.accept(cn, 0);
         removeByName(cn, "testFuel");
 
+
         ClassWriter cw = new ClassWriter(0);
         cn.accept(cw);
         MethodVisitor mv;
@@ -56,7 +57,6 @@ public class ByteCodeTransformer implements IClassTransformer {
             mv.visitMaxs(2, 1);
             mv.visitEnd();
         }
-
         return cw.toByteArray();
     }
 

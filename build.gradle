@@ -21,6 +21,9 @@ version = "1.0"
 group= "com.dimach"
 archivesBaseName = "galacticraft_fuel_fix"
 
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
 minecraft {
     version = "1.7.10-10.13.4.1558-1.7.10"
     runDir = "eclipse"
@@ -28,7 +31,7 @@ minecraft {
 
 jar {
     manifest {
-        attributes 'FMLCorePlugin': 'com.dimach.iicfix.CoreMod',
+        attributes 'FMLCorePlugin': 'com.dimach.fuelfix.CoreMod',
                 'FMLCorePluginContainsFMLMod': 'true'
     }
 }
