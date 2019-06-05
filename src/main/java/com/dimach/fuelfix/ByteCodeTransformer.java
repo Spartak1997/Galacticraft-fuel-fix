@@ -37,7 +37,7 @@ public class ByteCodeTransformer implements IClassTransformer {
             mv.visitLabel(l0);
             mv.visitLineNumber(72, l0);
             mv.visitVarInsn(ALOAD, 0);
-            mv.visitLdcInsn("rocket_fuel");
+            mv.visitLdcInsn("fluid.rocketfuelmixa");
             mv.visitMethodInsn(INVOKEVIRTUAL, "java/lang/String", "equals", "(Ljava/lang/Object;)Z", false);
             Label l1 = new Label();
             mv.visitJumpInsn(IFNE, l1);
